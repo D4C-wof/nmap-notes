@@ -57,7 +57,9 @@ Nmap scan report for <域名> (<解析出的IP>)
 
 ### 注意事项
 
-- 一个域名可能解析出多个 A 记录，Nmap **默认只扫第一个**。要全扫需要自己解析后传入，或用 `--resolve-all`【待核实：该参数在部分版本中行为有差异，使用前以 `nmap --help` 为准】。
+- 一个域名可能解析出多个 A 记录，Nmap **默认只扫第一个**。要全扫所有解析结果，用 `--resolve-all`
+  （官方手册原话："To make Nmap scan all the resolved addresses instead of only the first one, use the `--resolve-all` option"），
+  或自己解析出 IP 列表后传给 Nmap。
 - 域名解析默认走本机 DNS。想指定 DNS 服务器，见 [2.7](#27-dns-相关参数)。
 - 扫域名前先 `nslookup <域名>` / `dig <域名>` 看一眼解析结果，能省掉大量误判。
 
