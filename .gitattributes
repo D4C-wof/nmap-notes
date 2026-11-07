@@ -1,0 +1,10 @@
+# 统一换行：仓库内文本一律 LF（Windows 检出时由 core.autocrlf / eol 规则决定工作区表现）
+* text=auto eol=lf
+
+# 明确二进制，避免被文本规则处理
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.zip binary
+*.pdf binary
