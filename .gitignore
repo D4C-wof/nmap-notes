@@ -1,0 +1,27 @@
+# 操作系统 / 编辑器垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# 编辑器与 IDE
+.vscode/
+.idea/
+.obsidian/
+
+# 扫描产物：绝不要提交真实目标的扫描结果
+*.nmap
+*.gnmap
+*.xml
+targets.txt
+scan-*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 本地临时文件
+*.log
+*.tmp
