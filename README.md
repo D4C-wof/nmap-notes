@@ -5,6 +5,7 @@
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/docs-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 [![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Release](https://img.shields.io/github/v/release/D4C-wof/nmap-notes?label=release&color=blue)](https://github.com/D4C-wof/nmap-notes/releases)
 
 **这是一个文档型仓库，不是软件项目**：没有构建步骤、没有运行时依赖、没有 API。`git clone` 下来就是一摞
 Markdown，用浏览器或任意编辑器打开即可读。仓库里唯一的可执行文件是 `scripts/check-links.py`——一个只用
@@ -369,9 +370,9 @@ example-basic-<时间戳>-03-service.nmap   / .xml / .gnmap   # -sV -sC 版本�
 - 代码用 MIT：示例脚本要能被人直接抄进工程，任何附加限制都会降低可用性。
 - 若你希望允许他人把改编版闭源（例如做内部培训材料），把文档许可换成 **CC BY 4.0** 即可——去掉 ShareAlike 这一条。
 
-替换方式：修改 `LICENSE`，并同步更新本节与 README 顶部的徽章。标准全文随仓库提供：
+替换方式：修改 `LICENSE-NOTES.md`，并同步更新本节与 README 顶部的徽章。标准全文随仓库提供：
 文档见 `LICENSE-CC-BY-SA-4.0.txt`（CC 官方 legalcode.txt，未作修改），代码见 `LICENSE-MIT`；
-版权归属与各部分适用范围写在 `LICENSE`。
+版权归属与各部分适用范围写在 `LICENSE-NOTES.md`。
 
 ---
 

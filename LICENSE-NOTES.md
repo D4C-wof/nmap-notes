@@ -1,5 +1,8 @@
 # License
 
+> 本文件只说明**双许可的适用范围与版权归属**。两种标准许可证全文分别在 `LICENSE-MIT`（代码）与
+> `LICENSE-CC-BY-SA-4.0.txt`（文档），GitHub 依据这两个标准文本识别许可证。
+
 本项目采用双许可（dual licensing）。
 
 ## 1. 文档 — CC BY-SA 4.0
@@ -27,10 +30,10 @@ Copyright (c) 2026 nmap-notes contributors
   做许可协议允许的事情。
 
 许可协议全文（唯一权威文本）：
-https://creativecommons.org/licenses/by-sa/4.0/legalcode
+<https://creativecommons.org/licenses/by-sa/4.0/legalcode>
 
 中文版摘要（仅供参考，不具法律效力）：
-https://creativecommons.org/licenses/by-sa/4.0/deed.zh
+<https://creativecommons.org/licenses/by-sa/4.0/deed.zh>
 
 > 备注：本文件不复制 CC 官方法律文本，以避免与官方版本产生版本漂移。
 > 官方全文（英文，唯一权威版本）已随仓库提供：`LICENSE-CC-BY-SA-4.0.txt`，
